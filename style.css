@@ -1,0 +1,116 @@
+/*The page header*/
+.header {
+    border-radius : 5px 50px 50px 5px;
+    background-color : #242c3b;
+    padding : 15px;
+    width : 85%;
+    height : 140px;
+    margin-left : -5%;
+    margin-right : 7.5%;
+    margin-top : -10px;
+    font-family : sans-serif;
+}
+
+/*Body background colour*/
+body {
+    background-color : #0c1524;
+    color : white;
+    padding-left : 208px;
+    font-family : serif;
+    font-size : 24px;
+}
+
+/*Sidebar Menu*/
+.sidenav {
+    height : 100%;
+    width : 200px;
+    position : fixed;
+    z-index : 1;
+    top : 0;
+    left : 0;
+    background-color: #010101;
+    overflow-x : hidden;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    font-family : sans-serif;
+}
+
+.sidenav a {
+    display : block;
+    color : #525252;
+    font-size : 30px;
+    padding : 35px 15px 35px 15px;
+    text-decoration : none;
+}
+
+/*Hover Display*/
+.sidenav a:hover {
+    color : white;
+    background-color : #525252
+}
+
+*/Style Page Content*/
+.main {
+    margin-left: 135px;
+    padding : 0x 10px;
+}
+
+/*Primary Page Header*/
+h1 {
+    color : whitesmoke;
+    text-align : center;
+    vertical-align : center;
+    font-size : 48px;
+}
+
+/*Sub-Headsings*/
+h2 {
+    color : white;
+    font-size : 36px;
+    font-family : serif;
+    padding-left : 8px;
+}
+
+/*Account Content Boxes*/
+.accountBox {
+    display : block;
+    border-radius : 50px 50px 50px 50px;
+    background-color : #242c3b;
+    padding : 25px;
+    width : 430px;
+    height : 70px;
+    margin-left : 36px;
+    margin-right : 7.5%;
+    margin-top : 25px;
+}
+
+
+/*Account Titles*/
+h3 {
+    color : white;
+    font-size : 24px;
+    font-family : serif;
+    padding-left : 48px;
+    text-decoration : none;
+}
+
+h4 {
+    color : white;
+    font-size : 24px;
+    font-family : serif;
+    padding-left : 48px;
+    text-decoration : none;
+}
+
+h4:hover {
+    color : #5a6069;
+}
+
+.portfolioBox {
+        display : block;
+    border-radius : 50px 50px 50px 50px;
+    background-color : #242c3b;
+    padding : 24px;
+    height : 128px;
+    width : 128px;
+}
