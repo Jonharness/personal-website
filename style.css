@@ -83,7 +83,7 @@ h2 {
 
 /*Account Content Boxes*/
 .accountBox {
-    display : inline-flex;
+    display : block;
     border-radius : 50px 50px 50px 50px;
     background-color : #242c3b;
     padding : 25px;
@@ -93,6 +93,7 @@ h2 {
     margin-right : 8px;
     margin-top : 25px;
     border : 1px solid #525252;
+    float : left;
 }
 
 
@@ -127,8 +128,8 @@ h4:hover {
     border : 1px solid #525252;
     float : left;
     margin : 15px;
-    position : relative;
     float : left;
+    position : relative;
 }
 
 .musicBox {
