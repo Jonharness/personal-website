@@ -1,6 +1,6 @@
 /*The page header*/
 header {
-    border-radius : 5px 50px 50px 5px;
+    border-radius : 5px 5px 50px 5px;
     background-color : #242c3b;
     padding : 15px;
     width : 85%;
@@ -27,7 +27,7 @@ body {
     border-radius : 4px;
     width : 85%;
     margin-top : -25px;
-    border : 1spx solid #525252;
+    border : 1px solid #010101;
 }
 
 /*Sidebar Menu*/
@@ -79,6 +79,8 @@ h2 {
     font-size : 36px;
     font-family : serif;
     padding-left : 8px;
+    padding-right : 15%;
+    text-align : center;
 }
 
 /*Account Content Boxes*/
@@ -102,8 +104,8 @@ h3 {
     color : white;
     font-size : 24px;
     font-family : serif;
-    padding-left : 48px;
     text-decoration : none;
+    text-align : center;
 }
 
 h4 {
@@ -112,6 +114,8 @@ h4 {
     font-family : serif;
     padding-left : 48px;
     text-decoration : none;
+    text-align : center;
+    padding-right : 48px;
 }
 
 h4:hover {
@@ -120,7 +124,7 @@ h4:hover {
 
 .portfolioBox {
     display : block;
-    border-radius : 50px 50px 50px 50px;
+    border-radius : 16px;
     background-color : #242c3b;
     padding : 24px;
     height : 192px;
@@ -134,7 +138,7 @@ h4:hover {
 
 .musicBox {
     display : inline-flex;
-    border-radius : 50px;
+    border-radius : 16px;
     background-color : #242c3b;
     padding : 24px;
     height : auto;
